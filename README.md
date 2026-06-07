@@ -1161,6 +1161,8 @@ Tools for generating penetration testing reports.
 
 | **ExternalDNS**|DNS record management for K8s |
 
+| **Kustomize**|Kuberbetes config customization |
+
 ---
 
 ## License
