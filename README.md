@@ -1101,6 +1101,8 @@ Tools for generating penetration testing reports.
 
 | **RQ**|Python job queue for task processing |
 
+| **Celery**|Distributed task queue |
+
 ---
 
 ## License
