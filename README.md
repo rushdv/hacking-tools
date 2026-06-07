@@ -1173,6 +1173,8 @@ Tools for generating penetration testing reports.
 
 | **kubectx**|Switch Kubernetes contexts quickly |
 
+| **kubens**|Switch Kubernetes namespaces quickly |
+
 ---
 
 ## License
