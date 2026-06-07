@@ -1181,6 +1181,8 @@ Tools for generating penetration testing reports.
 
 | **Kube-Forward**|Forward ports to Kubernetes pods |
 
+| **Telepresence**|Local development for K8s |
+
 ---
 
 ## License
