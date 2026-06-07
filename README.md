@@ -1165,6 +1165,8 @@ Tools for generating penetration testing reports.
 
 | **Helm**|Kuberbetes package manager |
 
+| **Skaffold**|Development workflow for K8s |
+
 ---
 
 ## License
