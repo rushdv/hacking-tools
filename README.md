@@ -1133,6 +1133,8 @@ Tools for generating penetration testing reports.
 
 | **Boundary**|Identity-based access management |
 
+| **Waypoint**|Build and deployment platform |
+
 ---
 
 ## License
