@@ -1141,6 +1141,8 @@ Tools for generating penetration testing reports.
 
 | **Nomad**|Cluster scheduler (HashiCorp) |
 
+| **Raft**|Distributed consensus protocol implementation |
+
 ---
 
 ## License
