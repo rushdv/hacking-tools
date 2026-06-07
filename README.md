@@ -1111,6 +1111,8 @@ Tools for generating penetration testing reports.
 
 | **MinIO**|S3-compatible object storage |
 
+| **Caddy**|Web server with automatic HTTPS |
+
 ---
 
 ## License
