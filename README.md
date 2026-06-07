@@ -1179,6 +1179,8 @@ Tools for generating penetration testing reports.
 
 | **Kubetail**|Aggregate pod logs for Kubernetes |
 
+| **Kube-Forward**|Forward ports to Kubernetes pods |
+
 ---
 
 ## License
