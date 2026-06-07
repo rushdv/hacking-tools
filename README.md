@@ -1097,6 +1097,8 @@ Tools for generating penetration testing reports.
 
 | **Sigma**|Generic SIEM rule format |
 
+| **HELK**|Hunting ELK logging platform |
+
 ---
 
 ## License
