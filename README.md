@@ -1107,6 +1107,8 @@ Tools for generating penetration testing reports.
 
 | **RabbitMQ**|Message broker for security pipelines |
 
+| **Kafka**|Distributed event streaming platform |
+
 ---
 
 ## License
