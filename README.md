@@ -1183,6 +1183,8 @@ Tools for generating penetration testing reports.
 
 | **Telepresence**|Local development for K8s |
 
+| **Octant**|Web dashboard for Kubernetes (VMware) |
+
 ---
 
 ## License
