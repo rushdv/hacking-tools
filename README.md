@@ -1171,6 +1171,8 @@ Tools for generating penetration testing reports.
 
 | **K9s**|Terminal UI for Kubernetes |
 
+| **kubectx**|Switch Kubernetes contexts quickly |
+
 ---
 
 ## License
