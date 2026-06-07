@@ -1113,6 +1113,8 @@ Tools for generating penetration testing reports.
 
 | **Caddy**|Web server with automatic HTTPS |
 
+| **Nginx**|High-performance web server and reverse proxy |
+
 ---
 
 ## License
