@@ -1139,6 +1139,8 @@ Tools for generating penetration testing reports.
 
 | **Vagrant**|Development environment management |
 
+| **Nomad**|Cluster scheduler (HashiCorp) |
+
 ---
 
 ## License
