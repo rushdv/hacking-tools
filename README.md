@@ -1177,6 +1177,8 @@ Tools for generating penetration testing reports.
 
 | **stern**|Multi-pod log tailing for K8s |
 
+| **Kubetail**|Aggregate pod logs for Kubernetes |
+
 ---
 
 ## License
