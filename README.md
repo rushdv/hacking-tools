@@ -1095,6 +1095,8 @@ Tools for generating penetration testing reports.
 
 | **Sysmon**|Windows system monitoring and logging (Sysinternals) |
 
+| **Sigma**|Generic SIEM rule format |
+
 ---
 
 ## License
