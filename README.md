@@ -1115,6 +1115,8 @@ Tools for generating penetration testing reports.
 
 | **Nginx**|High-performance web server and reverse proxy |
 
+| **Apache**|HTTP server and reverse proxy |
+
 ---
 
 ## License
