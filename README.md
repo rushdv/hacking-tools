@@ -1159,6 +1159,8 @@ Tools for generating penetration testing reports.
 
 | **Cert-Manager**|Certificate management for Kubernetes |
 
+| **ExternalDNS**|DNS record management for K8s |
+
 ---
 
 ## License
