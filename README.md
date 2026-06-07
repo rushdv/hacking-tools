@@ -1175,6 +1175,8 @@ Tools for generating penetration testing reports.
 
 | **kubens**|Switch Kubernetes namespaces quickly |
 
+| **stern**|Multi-pod log tailing for K8s |
+
 ---
 
 ## License
