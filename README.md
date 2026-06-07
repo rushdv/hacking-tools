@@ -1093,6 +1093,8 @@ Tools for generating penetration testing reports.
 | **Confluence** | Documentation and collaboration |
 | **Obsidian** | Knowledge base and documentation |
 
+| **Sysmon**|Windows system monitoring and logging (Sysinternals) |
+
 ---
 
 ## License
