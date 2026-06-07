@@ -1149,6 +1149,8 @@ Tools for generating penetration testing reports.
 
 | **Consul Template**|Dynamic configuration rendering |
 
+| **Envconsul**|Environment variable management with Consul |
+
 ---
 
 ## License
