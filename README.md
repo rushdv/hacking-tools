@@ -1127,6 +1127,8 @@ Tools for generating penetration testing reports.
 
 | **Linkerd**|Service mesh for Kubernetes |
 
+| **Consul**|Service mesh and discovery (HashiCorp) |
+
 ---
 
 ## License
