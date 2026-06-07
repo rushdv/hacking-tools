@@ -1119,6 +1119,8 @@ Tools for generating penetration testing reports.
 
 | **HAProxy**|TCP/HTTP load balancer |
 
+| **Traefik**|Cloud-native reverse proxy |
+
 ---
 
 ## License
