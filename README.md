@@ -1135,6 +1135,8 @@ Tools for generating penetration testing reports.
 
 | **Waypoint**|Build and deployment platform |
 
+| **Packer**|Machine image builder (HashiCorp) |
+
 ---
 
 ## License
