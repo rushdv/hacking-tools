@@ -1103,6 +1103,8 @@ Tools for generating penetration testing reports.
 
 | **Celery**|Distributed task queue |
 
+| **Redis**|In-memory data structure store |
+
 ---
 
 ## License
