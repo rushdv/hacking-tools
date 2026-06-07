@@ -1143,6 +1143,8 @@ Tools for generating penetration testing reports.
 
 | **Raft**|Distributed consensus protocol implementation |
 
+| **etcd**|Distributed key-value store (CoreOS) |
+
 ---
 
 ## License
