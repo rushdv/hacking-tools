@@ -1151,6 +1151,8 @@ Tools for generating penetration testing reports.
 
 | **Envconsul**|Environment variable management with Consul |
 
+| **Sentinel**|Policy-as-code framework (HashiCorp) |
+
 ---
 
 ## License
