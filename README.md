@@ -1157,6 +1157,8 @@ Tools for generating penetration testing reports.
 
 | **Kyverno**|Kubernative policy management |
 
+| **Cert-Manager**|Certificate management for Kubernetes |
+
 ---
 
 ## License
