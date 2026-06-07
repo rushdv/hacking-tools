@@ -1187,6 +1187,8 @@ Tools for generating penetration testing reports.
 
 | **Kubernetic**|Desktop client for Kubernetes |
 
+| **Lens**|Kuberbetes IDE (Mirantis) |
+
 ---
 
 ## License
