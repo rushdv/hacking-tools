@@ -1105,6 +1105,8 @@ Tools for generating penetration testing reports.
 
 | **Redis**|In-memory data structure store |
 
+| **RabbitMQ**|Message broker for security pipelines |
+
 ---
 
 ## License
