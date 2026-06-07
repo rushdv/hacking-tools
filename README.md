@@ -1131,6 +1131,8 @@ Tools for generating penetration testing reports.
 
 | **Vault**|Secrets management (HashiCorp) |
 
+| **Boundary**|Identity-based access management |
+
 ---
 
 ## License
