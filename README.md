@@ -1137,6 +1137,8 @@ Tools for generating penetration testing reports.
 
 | **Packer**|Machine image builder (HashiCorp) |
 
+| **Vagrant**|Development environment management |
+
 ---
 
 ## License
