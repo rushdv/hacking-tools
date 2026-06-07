@@ -1153,6 +1153,8 @@ Tools for generating penetration testing reports.
 
 | **Sentinel**|Policy-as-code framework (HashiCorp) |
 
+| **OPA**|Open Policy Agent - policy engine |
+
 ---
 
 ## License
