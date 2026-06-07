@@ -1129,6 +1129,8 @@ Tools for generating penetration testing reports.
 
 | **Consul**|Service mesh and discovery (HashiCorp) |
 
+| **Vault**|Secrets management (HashiCorp) |
+
 ---
 
 ## License
