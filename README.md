@@ -1125,6 +1125,8 @@ Tools for generating penetration testing reports.
 
 | **Istio**|Service mesh for Kubernetes |
 
+| **Linkerd**|Service mesh for Kubernetes |
+
 ---
 
 ## License
