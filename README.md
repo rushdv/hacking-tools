@@ -1145,6 +1145,8 @@ Tools for generating penetration testing reports.
 
 | **etcd**|Distributed key-value store (CoreOS) |
 
+| **ZooKeeper**|Distributed coordination service (Apache) |
+
 ---
 
 ## License
