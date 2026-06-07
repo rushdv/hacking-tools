@@ -1099,6 +1099,8 @@ Tools for generating penetration testing reports.
 
 | **HELK**|Hunting ELK logging platform |
 
+| **RQ**|Python job queue for task processing |
+
 ---
 
 ## License
