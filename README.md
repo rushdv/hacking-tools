@@ -1189,6 +1189,8 @@ Tools for generating penetration testing reports.
 
 | **Lens**|Kuberbetes IDE (Mirantis) |
 
+| **Kui**|Terminal + GUI for Kubernetes |
+
 ---
 
 ## License
