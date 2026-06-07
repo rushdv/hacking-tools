@@ -1109,6 +1109,8 @@ Tools for generating penetration testing reports.
 
 | **Kafka**|Distributed event streaming platform |
 
+| **MinIO**|S3-compatible object storage |
+
 ---
 
 ## License
