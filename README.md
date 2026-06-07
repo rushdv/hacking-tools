@@ -1169,6 +1169,8 @@ Tools for generating penetration testing reports.
 
 | **Tilt**|Development environment for K8s |
 
+| **K9s**|Terminal UI for Kubernetes |
+
 ---
 
 ## License
