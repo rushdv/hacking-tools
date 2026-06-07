@@ -1121,6 +1121,8 @@ Tools for generating penetration testing reports.
 
 | **Traefik**|Cloud-native reverse proxy |
 
+| **Envoy**|Edge and service proxy (Lyft) |
+
 ---
 
 ## License
