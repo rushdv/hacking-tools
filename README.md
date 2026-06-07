@@ -1117,6 +1117,8 @@ Tools for generating penetration testing reports.
 
 | **Apache**|HTTP server and reverse proxy |
 
+| **HAProxy**|TCP/HTTP load balancer |
+
 ---
 
 ## License
