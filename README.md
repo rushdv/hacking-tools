@@ -1185,6 +1185,8 @@ Tools for generating penetration testing reports.
 
 | **Octant**|Web dashboard for Kubernetes (VMware) |
 
+| **Kubernetic**|Desktop client for Kubernetes |
+
 ---
 
 ## License
