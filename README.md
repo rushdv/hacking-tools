@@ -1123,6 +1123,8 @@ Tools for generating penetration testing reports.
 
 | **Envoy**|Edge and service proxy (Lyft) |
 
+| **Istio**|Service mesh for Kubernetes |
+
 ---
 
 ## License
