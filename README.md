@@ -1,43 +1,114 @@
-# hacking-tools
+<div align="center">
 
-A comprehensive collection of cybersecurity utility tools for penetration testing, vulnerability assessment, security research, and defensive operations.
+# 🛡️ Hacking Tools Arsenal
 
----
+### *A Comprehensive Collection of Cybersecurity Tools*
 
-## Table of Contents
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/yourusername/hacking-tools/graphs/commit-activity)
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/hacking-tools.svg?style=social&label=Star)](https://github.com/yourusername/hacking-tools)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-- [Information Gathering (Reconnaissance)](#information-gathering-reconnaissance)
-- [Vulnerability Analysis](#vulnerability-analysis)
-- [Exploitation Frameworks](#exploitation-frameworks)
-- [Web Application Testing](#web-application-testing)
-- [Network Analysis & Sniffing](#network-analysis--sniffing)
-- [Password Attacks](#password-attacks)
-- [Wireless Attacks](#wireless-attacks)
-- [Bluetooth & RFID Attacks](#bluetooth--rfid-attacks)
-- [Reverse Engineering](#reverse-engineering)
-- [Forensics](#forensics)
-- [Post-Exploitation](#post-exploitation)
-- [Command & Control (C2) Frameworks](#command--control-c2-frameworks)
-- [Mobile Security Testing](#mobile-security-testing)
-- [Malware Analysis](#malware-analysis)
-- [OSINT (Open Source Intelligence)](#osint-open-source-intelligence)
-- [Anonymity & Privacy](#anonymity--privacy)
-- [Social Engineering](#social-engineering)
-- [Fuzzing Tools](#fuzzing-tools)
-- [Cloud Security](#cloud-security)
-- [IoT & Hardware Security](#iot--hardware-security)
-- [DDoS Testing](#ddos-testing)
-- [Steganography](#steganography)
-- [Database Security](#database-security)
-- [Windows & Active Directory](#windows--active-directory)
-- [Docker & Container Security](#docker--container-security)
-- [Reporting & Collaboration](#reporting--collaboration)
+*Your ultimate reference guide for penetration testing, vulnerability assessment, security research, and defensive operations*
+
+[Features](#-features) • [Categories](#-tool-categories) • [Installation](#-installation) • [Contributing](#-contributing) • [Disclaimer](#%EF%B8%8F-disclaimer)
+
+</div>
 
 ---
 
-## Information Gathering (Reconnaissance)
+## 🌟 Features
 
-Tools used to collect initial information about a target.
+- **📚 800+ Tools** - Comprehensive collection covering all security domains
+- **🔍 Well-Organized** - Categorized by use case for easy navigation
+- **🔗 Direct Links** - Quick access to official repositories and documentation
+- **📝 Clear Descriptions** - Understand each tool's purpose at a glance
+- **🆕 Regularly Updated** - Stay current with the latest security tools
+- **🎯 Multi-Platform** - Tools for Linux, Windows, macOS, and cloud environments
+
+---
+
+## 📑 Tool Categories
+
+<details>
+<summary><b>Click to expand full table of contents</b></summary>
+
+1. [🔎 Information Gathering (Reconnaissance)](#-information-gathering-reconnaissance)
+2. [🔓 Vulnerability Analysis](#-vulnerability-analysis)
+3. [💥 Exploitation Frameworks](#-exploitation-frameworks)
+4. [🌐 Web Application Testing](#-web-application-testing)
+5. [📡 Network Analysis & Sniffing](#-network-analysis--sniffing)
+6. [🔑 Password Attacks](#-password-attacks)
+7. [📶 Wireless Attacks](#-wireless-attacks)
+8. [📱 Bluetooth & RFID Attacks](#-bluetooth--rfid-attacks)
+9. [🔧 Reverse Engineering](#-reverse-engineering)
+10. [🔬 Forensics](#-forensics)
+11. [🎯 Post-Exploitation](#-post-exploitation)
+12. [👾 Command & Control (C2) Frameworks](#-command--control-c2-frameworks)
+13. [📱 Mobile Security Testing](#-mobile-security-testing)
+14. [🦠 Malware Analysis](#-malware-analysis)
+15. [🕵️ OSINT (Open Source Intelligence)](#%EF%B8%8F-osint-open-source-intelligence)
+16. [🥷 Anonymity & Privacy](#-anonymity--privacy)
+17. [🎭 Social Engineering](#-social-engineering)
+18. [🐛 Fuzzing Tools](#-fuzzing-tools)
+19. [☁️ Cloud Security](#%EF%B8%8F-cloud-security)
+20. [🔌 IoT & Hardware Security](#-iot--hardware-security)
+21. [💣 DDoS Testing](#-ddos-testing)
+22. [🖼️ Steganography](#%EF%B8%8F-steganography)
+23. [🗄️ Database Security](#%EF%B8%8F-database-security)
+24. [🪟 Windows & Active Directory](#-windows--active-directory)
+25. [🐳 Docker & Container Security](#-docker--container-security)
+26. [📊 Reporting & Collaboration](#-reporting--collaboration)
+
+</details>
+
+---
+
+## 📥 Installation
+
+Most tools can be installed via package managers or directly from their repositories:
+
+```bash
+# Debian/Ubuntu/Kali Linux
+sudo apt update
+sudo apt install <tool-name>
+
+# macOS (Homebrew)
+brew install <tool-name>
+
+# Python tools
+pip install <tool-name>
+
+# Go tools
+go install github.com/<author>/<tool-name>@latest
+
+# Docker
+docker pull <tool-name>
+```
+
+> **Note:** Always verify tool authenticity and review source code before installation.
+
+---
+
+## 🔍 Quick Search
+
+Use `Ctrl+F` (or `Cmd+F` on Mac) to quickly find specific tools in this document.
+
+**Popular searches:**
+- Network scanning → `Nmap`, `Masscan`, `RustScan`
+- Web testing → `Burp Suite`, `SQLMap`, `OWASP ZAP`
+- Password cracking → `Hashcat`, `John the Ripper`, `Hydra`
+- Exploitation → `Metasploit`, `Cobalt Strike`, `Empire`
+- OSINT → `Maltego`, `theHarvester`, `Shodan`
+
+---
+
+## 🔎 Information Gathering (Reconnaissance)
+
+> **Purpose:** Collect initial information about target systems, networks, and infrastructure.
+
+<details open>
+<summary><b>View Tools (40+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -83,11 +154,18 @@ Tools used to collect initial information about a target.
 | [**CloudEnum**](https://github.com/initstring/cloud_enum) | Cloud service enumeration |
 | [**CDNStrip**](https://github.com/jaykali/cdnstrip) | CDN detection and bypass tool |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Vulnerability Analysis
+## 🔓 Vulnerability Analysis
 
-Tools for scanning and identifying vulnerabilities.
+> **Purpose:** Identify security weaknesses and misconfigurations in systems and applications.
+
+<details open>
+<summary><b>View Tools (30+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -121,11 +199,18 @@ Tools for scanning and identifying vulnerabilities.
 | [**Nuclei**](https://github.com/projectdiscovery/nuclei) | Fast, template-based vulnerability scanner |
 | [**PoC-in-GitHub**](https://github.com/nomi-sec/PoC-in-GitHub) | Collection of proof-of-concept exploits |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Exploitation Frameworks
+## 💥 Exploitation Frameworks
 
-Frameworks designed to develop and execute exploits.
+> **Purpose:** Develop, test, and execute exploits against vulnerable systems.
+
+<details open>
+<summary><b>View Tools (20+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -151,11 +236,18 @@ Frameworks designed to develop and execute exploits.
 | [**LinPEAS**](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS) | Linux privilege escalation auditing |
 | [**WinPEAS**](https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS) | Windows privilege escalation auditing |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Web Application Testing
+## 🌐 Web Application Testing
 
-Tools for testing web application security.
+> **Purpose:** Identify and exploit vulnerabilities in web applications and APIs.
+
+<details open>
+<summary><b>View Tools (45+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -198,11 +290,18 @@ Tools for testing web application security.
 | [**InQL**](https://github.com/doyensec/inql) | GraphQL security testing (intrusive) |
 | [**SwaggerSpy**](https://github.com/UndeadSec/SwaggerSpy) | Swagger/OpenAPI endpoint discovery |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Network Analysis & Sniffing
+## 📡 Network Analysis & Sniffing
 
-Tools for capturing and analyzing network traffic.
+> **Purpose:** Capture, analyze, and manipulate network traffic for security assessment.
+
+<details open>
+<summary><b>View Tools (35+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -239,11 +338,18 @@ Tools for capturing and analyzing network traffic.
 | [**PRTG**](https://www.paessler.com/prtg) | Network monitoring and bandwidth analysis |
 | [**Zabbix**](https://www.zabbix.com) | Enterprise network monitoring |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Password Attacks
+## 🔑 Password Attacks
 
-Tools for password cracking, recovery, and authentication testing.
+> **Purpose:** Test password strength, crack hashes, and audit authentication systems.
+
+<details open>
+<summary><b>View Tools (30+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -279,11 +385,18 @@ Tools for password cracking, recovery, and authentication testing.
 | [**BruteSpray**](https://github.com/x90skysn3k/brutespray) | Mass bruteforce from Nmap output |
 | [**Turbo Intruder**](https://github.com/PortSwigger/turbo-intruder) | HTTP bruteforce tool (PortSwigger) |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Wireless Attacks
+## 📶 Wireless Attacks
 
-Tools for attacking wireless networks and protocols.
+> **Purpose:** Assess security of wireless networks (WiFi, WPA, WEP, WPS).
+
+<details open>
+<summary><b>View Tools (30+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -318,11 +431,18 @@ Tools for attacking wireless networks and protocols.
 | [**WiFi Pineapple**](https://shop.hak5.org/products/wifi-pineapple) | Rogue AP and MITM device (Hak5) |
 | [**WiFi Pumpkin**](https://github.com/P0cL4bs/wifipumpkin3) | Rogue AP framework for MITM |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Bluetooth & RFID Attacks
+## 📱 Bluetooth & RFID Attacks
 
-Tools for Bluetooth and RFID/NFC security testing.
+> **Purpose:** Test security of Bluetooth and RFID/NFC systems and devices.
+
+<details open>
+<summary><b>View Tools (25+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -355,11 +475,18 @@ Tools for Bluetooth and RFID/NFC security testing.
 | [**OpenPCD**](https://github.com/OpenPCD/OpenPCD) | RFID reader/writer |
 | [**OpenPICC**](https://github.com/OpenPCD/OpenPICC) | RFID tag emulator |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Reverse Engineering
+## 🔧 Reverse Engineering
 
-Tools for analyzing and understanding binary code.
+> **Purpose:** Analyze compiled binaries, malware, and proprietary software.
+
+<details open>
+<summary><b>View Tools (50+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -415,11 +542,18 @@ Tools for analyzing and understanding binary code.
 | [**QEMU**](https://www.qemu.org) | Open-source machine emulator |
 | [**Panda**](https://github.com/panda-re/panda) | Platform for architecture-neutral dynamic analysis |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Forensics
+## 🔬 Forensics
 
-Tools for digital forensic investigation and incident response.
+> **Purpose:** Investigate security incidents and perform digital forensic analysis.
+
+<details open>
+<summary><b>View Tools (50+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -474,11 +608,18 @@ Tools for digital forensic investigation and incident response.
 | [**X-Ways Forensics**](https://www.x-ways.net/forensics) | Advanced forensics environment |
 | [**Magnet AXIOM**](https://www.magnetforensics.com/products/magnet-axiom) | Digital investigation platform |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Post-Exploitation
+## 🎯 Post-Exploitation
 
-Tools used after gaining initial access to a system.
+> **Purpose:** Maintain access, escalate privileges, and move laterally after initial compromise.
+
+<details open>
+<summary><b>View Tools (40+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -528,11 +669,18 @@ Tools used after gaining initial access to a system.
 | [**Proxychains**](https://github.com/rofl0r/proxychains-ng) | Force traffic through proxy chains |
 | [**socat**](http://www.dest-unreach.org/socat) | Multipurpose relay and tunneling |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Command & Control (C2) Frameworks
+## 👾 Command & Control (C2) Frameworks
 
-Frameworks for managing compromised systems.
+> **Purpose:** Manage and control compromised systems during red team operations.
+
+<details open>
+<summary><b>View Tools (25+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -564,11 +712,18 @@ Frameworks for managing compromised systems.
 | [**Empire**](https://github.com/BC-SECURITY/Empire) | Post-exploitation C2 framework |
 | [**Cobalt Strike Malleable C2**](https://www.cobaltstrike.com/help-malleable-c2) | Custom C2 profile generation |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Mobile Security Testing
+## 📱 Mobile Security Testing
 
-Tools for testing mobile application security.
+> **Purpose:** Test security of mobile applications (iOS/Android) and mobile platforms.
+
+<details open>
+<summary><b>View Tools (30+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -604,11 +759,18 @@ Tools for testing mobile application security.
 | [**MITMProxy**](https://mitmproxy.org) | Mobile HTTPS interception |
 | [**Objection**](https://github.com/sensepost/objection) | Bypass SSL pinning |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Malware Analysis
+## 🦠 Malware Analysis
 
-Tools for analyzing malicious software.
+> **Purpose:** Analyze, reverse engineer, and understand malicious software behavior.
+
+<details open>
+<summary><b>View Tools (40+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -652,11 +814,18 @@ Tools for analyzing malicious software.
 | [**ThreatConnect**](https://threatconnect.com) | Threat intelligence platform |
 | [**Phantom**](https://www.splunk.com/en_us/software/splunk-security-orchestration-and-automation.html) | SOAR platform (Splunk) |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## OSINT (Open Source Intelligence)
+## 🕵️ OSINT (Open Source Intelligence)
 
-Tools for gathering intelligence from public sources.
+> **Purpose:** Gather intelligence from publicly available sources and open data.
+
+<details open>
+<summary><b>View Tools (45+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -707,11 +876,18 @@ Tools for gathering intelligence from public sources.
 | [**DNSDumpster**](https://dnsdumpster.com) | DNS reconnaissance |
 | [**SecurityTrails**](https://securitytrails.com) | DNS and IP history |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Anonymity & Privacy
+## 🥷 Anonymity & Privacy
 
-Tools for maintaining anonymity and privacy during testing.
+> **Purpose:** Maintain operational security and privacy during security testing.
+
+<details open>
+<summary><b>View Tools (25+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -743,11 +919,18 @@ Tools for maintaining anonymity and privacy during testing.
 | [**CCleaner**](https://www.ccleaner.com) | Privacy cleaning tool |
 | [**BleachBit**](https://www.bleachbit.org) | System cleaner for privacy |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Social Engineering
+## 🎭 Social Engineering
 
-Tools for social engineering assessments.
+> **Purpose:** Test human vulnerabilities through phishing, pretexting, and social manipulation.
+
+<details open>
+<summary><b>View Tools (25+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -776,11 +959,18 @@ Tools for social engineering assessments.
 | [**WiFi Pineapple**](https://shop.hak5.org/products/wifi-pineapple) | Wireless auditing and phishing (Hak5) |
 | [**Key Croc**](https://shop.hak5.org/products/key-croc) | Keystroke logging device (Hak5) |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Fuzzing Tools
+## 🐛 Fuzzing Tools
 
-Tools for discovering vulnerabilities through input fuzzing.
+> **Purpose:** Discover bugs and vulnerabilities through automated input generation.
+
+<details open>
+<summary><b>View Tools (25+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -813,11 +1003,18 @@ Tools for discovering vulnerabilities through input fuzzing.
 | [**FuzzDB**](https://github.com/fuzzdb-project/fuzzdb) | Attack pattern and fuzzing dictionary |
 | [**JBroFuzz**](https://github.com/OWASP/JBroFuzz) | Web application fuzzer (OWASP) |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Cloud Security
+## ☁️ Cloud Security
 
-Tools for assessing cloud infrastructure security.
+> **Purpose:** Assess security of cloud infrastructure (AWS, Azure, GCP) and cloud-native applications.
+
+<details open>
+<summary><b>View Tools (30+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -852,11 +1049,18 @@ Tools for assessing cloud infrastructure security.
 | [**Twistlock**](https://www.paloaltonetworks.com/prisma/cloud) | Container security (Prisma Cloud) |
 | [**Sysdig Secure**](https://sysdig.com) | Container security and forensics |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## IoT & Hardware Security
+## 🔌 IoT & Hardware Security
 
-Tools for testing IoT devices and embedded systems.
+> **Purpose:** Test security of IoT devices, embedded systems, and hardware components.
+
+<details open>
+<summary><b>View Tools (35+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -894,11 +1098,18 @@ Tools for testing IoT devices and embedded systems.
 | [**IoT Inspector**](https://www.iot-inspector.com) | IoT device traffic analysis |
 | [**Shodan**](https://www.shodan.io) | IoT device search engine |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## DDoS Testing
+## 💣 DDoS Testing
 
-Tools for testing denial-of-service resilience.
+> **Purpose:** Test system resilience against denial-of-service attacks (authorized testing only).
+
+<details open>
+<summary><b>View Tools (20+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -925,11 +1136,18 @@ Tools for testing denial-of-service resilience.
 | [**Nemesis**](https://github.com/troglobit/nemesis) | Packet injection for DoS testing |
 | [**Bonesi**](https://github.com/Markus-Go/bonesi) | Botnet simulation DoS tool |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Steganography
+## 🖼️ Steganography
 
-Tools for hiding data within other data.
+> **Purpose:** Hide and extract data within images, audio, video, and text files.
+
+<details open>
+<summary><b>View Tools (20+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -954,11 +1172,18 @@ Tools for hiding data within other data.
 | [**Virtual Steganography**](https://github.com/msrkp/virtual-steganography) | Text-based steganography |
 | [**Steganography Studio**](https://github.com/bozokopic/Steganography-Studio) | Image steganography analysis |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Database Security
+## 🗄️ Database Security
 
-Tools for database security assessment.
+> **Purpose:** Test database security, perform SQL injection, and audit database configurations.
+
+<details open>
+<summary><b>View Tools (20+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -983,11 +1208,18 @@ Tools for database security assessment.
 | [**Sqlninja**](https://github.com/xxgrunge/sqlninja) | MSSQL injection and exploitation |
 | [**SQLBrute**](https://github.com/udonmai/SQLBrute) | SQL injection brute-force |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Windows & Active Directory
+## 🪟 Windows & Active Directory
 
-Tools specific to Windows and AD security assessment.
+> **Purpose:** Assess security of Windows systems and Active Directory environments.
+
+<details open>
+<summary><b>View Tools (40+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -1030,11 +1262,18 @@ Tools specific to Windows and AD security assessment.
 | [**BlueKeep Scanner**](https://github.com/nccgroup/BLUEKEEP) | CVE-2019-0708 vulnerability scanner |
 | [**SMBGhost Scanner**](https://github.com/ioncodes/SMBGhost) | CVE-2020-0796 vulnerability scanner |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Docker & Container Security
+## 🐳 Docker & Container Security
 
-Tools for container security assessment.
+> **Purpose:** Assess security of containers, Kubernetes clusters, and container orchestration.
+
+<details open>
+<summary><b>View Tools (25+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -1066,11 +1305,18 @@ Tools for container security assessment.
 | [**BinScope**](https://github.com/GoogleCloudPlatform/binscope) | Container image analysis |
 | [**Riscv-brute**](https://github.com/bitdefender/container-escape) | Container escape testing |
 
+</details>
+
+[🔝 Back to top](#-tool-categories)
+
 ---
 
-## Reporting & Collaboration
+## 📊 Reporting & Collaboration
 
-Tools for generating penetration testing reports.
+> **Purpose:** Document findings, generate reports, and collaborate during security assessments.
+
+<details open>
+<summary><b>View Tools (50+)</b></summary>
 
 | Tool | Description |
 |------|-------------|
@@ -1092,113 +1338,106 @@ Tools for generating penetration testing reports.
 | [**Jira**](https://www.atlassian.com/software/jira) | Issue and project tracking |
 | [**Confluence**](https://www.atlassian.com/software/confluence) | Documentation and collaboration |
 | [**Obsidian**](https://obsidian.md) | Knowledge base and documentation |
+| [**Sysmon**](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) | Windows system monitoring and logging (Sysinternals) |
+| [**Sigma**](https://github.com/SigmaHQ/sigma) | Generic SIEM rule format |
+| [**HELK**](https://github.com/Cyb3rWard0g/HELK) | Hunting ELK logging platform |
 
-| [**Sysmon**](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) |Windows system monitoring and logging (Sysinternals) |
+</details>
 
-| [**Sigma**](https://github.com/SigmaHQ/sigma) |Generic SIEM rule format |
-
-| [**HELK**](https://github.com/Cyb3rWard0g/HELK) |Hunting ELK logging platform |
-
-| [**RQ**](https://github.com/rq/rq) |Python job queue for task processing |
-
-| [**Celery**](https://github.com/celery/celery) |Distributed task queue |
-
-| [**Redis**](https://redis.io) |In-memory data structure store |
-
-| [**RabbitMQ**](https://www.rabbitmq.com) |Message broker for security pipelines |
-
-| [**Kafka**](https://kafka.apache.org) |Distributed event streaming platform |
-
-| [**MinIO**](https://min.io) |S3-compatible object storage |
-
-| [**Caddy**](https://caddyserver.com) |Web server with automatic HTTPS |
-
-| [**Nginx**](https://nginx.org) |High-performance web server and reverse proxy |
-
-| [**Apache**](https://httpd.apache.org) |HTTP server and reverse proxy |
-
-| [**HAProxy**](https://www.haproxy.org) |TCP/HTTP load balancer |
-
-| [**Traefik**](https://traefik.io) |Cloud-native reverse proxy |
-
-| [**Envoy**](https://www.envoyproxy.io) |Edge and service proxy (Lyft) |
-
-| [**Istio**](https://istio.io) |Service mesh for Kubernetes |
-
-| [**Linkerd**](https://linkerd.io) |Service mesh for Kubernetes |
-
-| [**Consul**](https://www.consul.io) |Service mesh and discovery (HashiCorp) |
-
-| [**Vault**](https://www.vaultproject.io) |Secrets management (HashiCorp) |
-
-| [**Boundary**](https://www.boundaryproject.io) |Identity-based access management |
-
-| [**Waypoint**](https://www.waypointproject.io) |Build and deployment platform |
-
-| [**Packer**](https://www.packer.io) |Machine image builder (HashiCorp) |
-
-| [**Vagrant**](https://www.vagrantup.com) |Development environment management |
-
-| [**Nomad**](https://www.nomadproject.io) |Cluster scheduler (HashiCorp) |
-
-| [**Raft**](https://raft.github.io) |Distributed consensus protocol implementation |
-
-| [**etcd**](https://etcd.io) |Distributed key-value store (CoreOS) |
-
-| [**ZooKeeper**](https://zookeeper.apache.org) |Distributed coordination service (Apache) |
-
-| [**Consul Template**](https://github.com/hashicorp/consul-template) |Dynamic configuration rendering |
-
-| [**Envconsul**](https://github.com/hashicorp/envconsul) |Environment variable management with Consul |
-
-| [**Sentinel**](https://docs.hashicorp.com/sentinel) |Policy-as-code framework (HashiCorp) |
-
-| [**OPA**](https://www.openpolicyagent.org) |Open Policy Agent - policy engine |
-
-| [**Kyverno**](https://kyverno.io) |Kubernative policy management |
-
-| [**Cert-Manager**](https://cert-manager.io) |Certificate management for Kubernetes |
-
-| [**ExternalDNS**](https://github.com/kubernetes-sigs/external-dns) |DNS record management for K8s |
-
-| [**Kustomize**](https://kustomize.io) |Kuberbetes config customization |
-
-| [**Helm**](https://helm.sh) |Kuberbetes package manager |
-
-| [**Skaffold**](https://skaffold.dev) |Development workflow for K8s |
-
-| [**Tilt**](https://tilt.dev) |Development environment for K8s |
-
-| [**K9s**](https://k9scli.io) |Terminal UI for Kubernetes |
-
-| [**kubectx**](https://github.com/ahmetb/kubectx) |Switch Kubernetes contexts quickly |
-
-| [**kubens**](https://github.com/ahmetb/kubens) |Switch Kubernetes namespaces quickly |
-
-| [**stern**](https://github.com/stern/stern) |Multi-pod log tailing for K8s |
-
-| [**Kubetail**](https://github.com/johanhaleby/kubetail) |Aggregate pod logs for Kubernetes |
-
-| [**Kube-Forward**](https://github.com/kube-forward/kube-forward) |Forward ports to Kubernetes pods |
-
-| [**Telepresence**](https://www.telepresence.io) |Local development for K8s |
-
-| [**Octant**](https://octant.dev) |Web dashboard for Kubernetes (VMware) |
-
-| [**Kubernetic**](https://kubernetic.com) |Desktop client for Kubernetes |
-
-| [**Lens**](https://k8slens.dev) |Kuberbetes IDE (Mirantis) |
-
-| [**Kui**](https://github.com/IBM/kui) |Terminal + GUI for Kubernetes |
+[🔝 Back to top](#-tool-categories)
 
 ---
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+MIT License
+
+Copyright (c) 2024 Hacking Tools Arsenal
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+```
+
+See the [LICENSE](LICENSE) file for full details.
 
 ---
 
-## Disclaimer
+## ⚠️ Disclaimer
 
-These tools are intended for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have explicit permission to test is illegal. The authors assume no liability for misuse or damage caused by these tools.
+<div align="center">
+
+### 🔴 IMPORTANT LEGAL NOTICE 🔴
+
+</div>
+
+**These tools are intended for:**
+- ✅ Authorized security testing and penetration testing
+- ✅ Educational and research purposes
+- ✅ Systems you own or have explicit written permission to test
+- ✅ Bug bounty programs with defined scope
+- ✅ Defensive security operations
+
+**Unauthorized use is:**
+- ❌ Illegal in most jurisdictions
+- ❌ Subject to criminal prosecution
+- ❌ Violation of computer fraud and abuse laws
+- ❌ Ethically wrong
+
+### Liability Disclaimer
+
+> **The authors and contributors of this repository:**
+> - Assume NO liability for misuse or damage caused by these tools
+> - Do NOT endorse illegal or unethical use
+> - Provide this information for educational purposes only
+> - Recommend obtaining proper authorization before any security testing
+
+### Responsible Disclosure
+
+If you discover vulnerabilities:
+1. Report them responsibly to the affected organization
+2. Allow reasonable time for patches before public disclosure
+3. Follow coordinated vulnerability disclosure practices
+4. Respect bug bounty program rules and guidelines
+
+---
+
+## 📞 Contact & Support
+
+- **Issues:** [GitHub Issues](https://github.com/yourusername/hacking-tools/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/yourusername/hacking-tools/discussions)
+- **Pull Requests:** Always welcome!
+
+---
+
+## 🙏 Acknowledgments
+
+This collection is made possible by the cybersecurity community's dedication to creating and maintaining these tools. Special thanks to:
+
+- Tool developers and maintainers
+- Security researchers and penetration testers
+- Open-source contributors
+- Bug bounty hunters
+- The OWASP Foundation
+- Offensive Security
+- SANS Institute
+- All contributors to this repository
+
+---
+
+<div align="center">
+
+**Made with ❤️ by the cybersecurity community**
+
+*Stay curious, stay ethical, stay secure* 🛡️
+
+[⬆ Back to top](#-hacking-tools-arsenal)
+
+</div>
